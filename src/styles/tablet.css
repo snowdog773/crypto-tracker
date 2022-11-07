@@ -1,0 +1,11 @@
+@media (min-width: 700px) {
+  img.menuIcon {
+    display: none;
+  }
+  nav.dropDown {
+    display: none;
+  }
+  nav.topNav {
+    display: flex;
+  }
+}

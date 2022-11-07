@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: red;
+  margin: 0;
+}
+
+header {
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.topNav {
+  display: none;
+}
+
+img.menuIcon {
+  height: 32px;
+  padding-right: 5px;
+}
+
+nav.dropDown {
+  display: block;
+  position: absolute;
+  background-color: #ddd;
+  width: 100%;
+}
+
+nav.dropDown div.link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
